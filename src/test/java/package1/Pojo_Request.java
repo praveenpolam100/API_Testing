@@ -1,37 +1,44 @@
 package package1;
 
+import java.util.List;
+
 public class Pojo_Request {
-	
-	String name;
-	String location;
-	String phone;
-	String courses[];
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public String getLocation() {
-		return location;
-	}
-	public void setLocation(String location) {
-		this.location = location;
-	}
-	public String getPhone() {
-		return phone;
-	}
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
-	public String[] getCourses() {
-		return courses;
-	}
-	public void setCourses(String[] courses) {
-		this.courses = courses;
+
+	private String firstName;
+	private String lastName;
+	private String profession;
+	private List<Address> address;
+
+	public String getFirstName() {
+		return firstName;
 	}
 
-	
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getProfession() {
+		return profession;
+	}
+
+	public void setProfession(String profession) {
+		this.profession = profession;
+	}
+
+	public List<Address> getAddress() {
+		return address;
+	}
+
+	public void setAddress(List<Address> address) {
+		this.address = address;
+	}
 
 }

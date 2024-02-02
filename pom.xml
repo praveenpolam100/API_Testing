@@ -5,6 +5,11 @@
 	<groupId>API_Testing</groupId>
 	<artifactId>API_Testing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -36,6 +41,11 @@
 			<artifactId>testng</artifactId>
 			<version>7.8.0</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>cucumber</groupId>
+			<artifactId>cucumber</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>

@@ -41,7 +41,8 @@ public class HttpRequests {
 
 		userid = given()
 
-				.contentType("application/json").body(data)
+				.contentType("application/json")
+				.body(data)
 
 			.when()
 				
