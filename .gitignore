@@ -1,2 +1,10 @@
+### Eclipse
+.settings/
+.classpath
+.project
+
+
+/API_Testing/target/*
+/API_Testing/test-output/*
+
 /target/
-/test-output/
